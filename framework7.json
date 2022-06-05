@@ -1,0 +1,33 @@
+{
+  "cwd": "C:\\Users\\Matrix\\Desktop\\my-app",
+  "type": [
+    "web",
+    "cordova"
+  ],
+  "name": "My App",
+  "framework": "react",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#da3b11",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  }
+}
